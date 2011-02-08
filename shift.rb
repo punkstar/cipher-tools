@@ -19,5 +19,5 @@ puts "Ciphertext: %s" % ciphertext
     plaintext = plaintext + new_c
   end
   
-  puts "Plaintext %d: %s" % [i, plaintext]
+  puts "Plaintext (%02d shift): %s" % [i, plaintext]
 end
